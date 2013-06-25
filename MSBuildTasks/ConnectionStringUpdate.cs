@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Build.Utilities;
-using System.Xml;
 using System.Text.RegularExpressions;
+using System.Xml;
+using Microsoft.Build.Utilities;
 
-namespace BlueBay.MSBuildTasks
+namespace MSBuildTasks
 {
 	public class ConnectionStringUpdate : Task
 	{

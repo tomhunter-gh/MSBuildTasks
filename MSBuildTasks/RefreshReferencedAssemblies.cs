@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.IO;
 using Microsoft.Build.Utilities;
-using System.IO;
-using System.Text.RegularExpressions;
 
-namespace BlueBay.MSBuildTasks
+namespace MSBuildTasks
 {
 	public class RefreshReferencedAssemblies : Task
 	{
